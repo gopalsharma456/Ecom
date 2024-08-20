@@ -1,0 +1,212 @@
+[
+    {
+        "id": 92,
+        "title": "Red Nail Polish",
+        "price": 8,
+        "description": "The Red Nail Polish offers a rich and glossy red hue for vibrant and polished nails. With a quick-drying formula, it provides a salon-quality finish at home.",
+        "creationAt": "2024-08-11T08:18:36.000Z",
+        "updatedAt": "2024-08-11T08:18:36.000Z",
+        "category": {
+            "name": "Clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2024-08-10T22:41:18.000Z",
+            "updatedAt": "2024-08-10T22:41:18.000Z"
+        }
+    },
+    {
+        "id": 93,
+        "title": "Calvin Klein CK One",
+        "price": 49,
+        "description": "CK One by Calvin Klein is a classic unisex fragrance, known for its fresh and clean scent. It's a versatile fragrance suitable for everyday wear.",
+        "creationAt": "2024-08-11T08:18:36.000Z",
+        "updatedAt": "2024-08-11T08:18:36.000Z",
+        "category": {
+            "name": "Clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2024-08-10T22:41:18.000Z",
+            "updatedAt": "2024-08-10T22:41:18.000Z"
+        }
+    },
+    {
+        "id": 94,
+        "title": "Chanel Coco Noir Eau De",
+        "price": 129,
+        "description": "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
+        "creationAt": "2024-08-11T08:18:36.000Z",
+        "updatedAt": "2024-08-11T08:18:36.000Z",
+        "category": {
+            "name": "Clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2024-08-10T22:41:18.000Z",
+            "updatedAt": "2024-08-10T22:41:18.000Z"
+        }
+    },
+    {
+        "id": 95,
+        "title": "Gucci Bloom Eau de",
+        "price": 79,
+        "description": "Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent.",
+        "creationAt": "2024-08-11T08:18:36.000Z",
+        "updatedAt": "2024-08-11T08:18:36.000Z",
+        "category": {
+            "name": "Clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2024-08-10T22:41:18.000Z",
+            "updatedAt": "2024-08-10T22:41:18.000Z"
+        }
+    },
+    {
+        "id": 96,
+        "title": "Dolce Shine Eau de",
+        "price": 69,
+        "description": "Dolce Shine by Dolce & Gabbana is a vibrant and fruity fragrance, featuring notes of mango, jasmine, and blonde woods. It's a joyful and youthful scent.",
+        "creationAt": "2024-08-11T08:18:36.000Z",
+        "updatedAt": "2024-08-11T08:18:36.000Z",
+        "category": {
+            "name": "Clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2024-08-10T22:41:18.000Z",
+            "updatedAt": "2024-08-10T22:41:18.000Z"
+        }
+    },
+    {
+        "id": 97,
+        "title": "Dior J'adore",
+        "price": 89,
+        "description": "J'adore by Dior is a luxurious and floral fragrance, known for its blend of ylang-ylang, rose, and jasmine. It embodies femininity and sophistication.",
+        "creationAt": "2024-08-11T08:18:36.000Z",
+        "updatedAt": "2024-08-11T08:18:36.000Z",
+        "category": {
+            "name": "Clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2024-08-10T22:41:18.000Z",
+            "updatedAt": "2024-08-10T22:41:18.000Z"
+        }
+    },
+    {
+        "id": 98,
+        "title": "Annibale Colombo Bed",
+        "price": 1899,
+        "description": "The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.",
+        "creationAt": "2024-08-11T08:18:36.000Z",
+        "updatedAt": "2024-08-11T08:18:36.000Z",
+        "category": {
+            "name": "Clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2024-08-10T22:41:18.000Z",
+            "updatedAt": "2024-08-10T22:41:18.000Z"
+        }
+    },
+    {
+        "id": 99,
+        "title": "Annibale Colombo Sofa",
+        "price": 2499,
+        "description": "The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.",
+        "creationAt": "2024-08-11T08:18:36.000Z",
+        "updatedAt": "2024-08-11T08:18:36.000Z",
+        "category": {
+            "name": "Clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2024-08-10T22:41:18.000Z",
+            "updatedAt": "2024-08-10T22:41:18.000Z"
+        }
+    },
+    {
+        "id": 100,
+        "title": "Knoll Saarinen Executive Conference Chair",
+        "price": 499,
+        "description": "The Knoll Saarinen Executive Conference Chair is a modern and ergonomic chair, perfect for your office or conference room with its timeless design.",
+        "creationAt": "2024-08-11T08:18:36.000Z",
+        "updatedAt": "2024-08-11T08:18:36.000Z",
+        "category": {
+            "name": "Clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2024-08-10T22:41:18.000Z",
+            "updatedAt": "2024-08-10T22:41:18.000Z"
+        }
+    },
+    {
+        "id": 101,
+        "title": "Bedside Table African Cherry",
+        "price": 299,
+        "description": "The Bedside Table in African Cherry is a stylish and functional addition to your bedroom, providing convenient storage space and a touch of elegance.",
+        "creationAt": "2024-08-11T08:18:36.000Z",
+        "updatedAt": "2024-08-11T08:18:36.000Z",
+        "category": {
+            "name": "Clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2024-08-10T22:41:18.000Z",
+            "updatedAt": "2024-08-10T22:41:18.000Z"
+        }
+    },
+    {
+        "id": 102,
+        "title": "Wooden Bathroom Sink With Mirror",
+        "price": 799,
+        "description": "The Wooden Bathroom Sink with Mirror is a unique and stylish addition to your bathroom, featuring a wooden sink countertop and a matching mirror.",
+        "creationAt": "2024-08-11T08:18:36.000Z",
+        "updatedAt": "2024-08-11T08:18:36.000Z",
+        "category": {
+            "name": "Clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2024-08-10T22:41:18.000Z",
+            "updatedAt": "2024-08-10T22:41:18.000Z"
+        }
+    },
+    {
+        "id": 103,
+        "title": "Apple",
+        "price": 1,
+        "description": "Fresh and crisp apples, perfect for snacking or incorporating into various recipes.",
+        "creationAt": "2024-08-11T08:18:36.000Z",
+        "updatedAt": "2024-08-11T08:18:36.000Z",
+        "category": {
+            "name": "Clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2024-08-10T22:41:18.000Z",
+            "updatedAt": "2024-08-10T22:41:18.000Z"
+        }
+    },
+    {
+        "id": 104,
+        "title": "Cucumber",
+        "price": 1,
+        "description": "Crisp and hydrating cucumbers, ideal for salads, snacks, or as a refreshing side.",
+        "creationAt": "2024-08-11T08:18:37.000Z",
+        "updatedAt": "2024-08-11T08:18:37.000Z",
+        "category": {
+            "name": "Clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2024-08-10T22:41:18.000Z",
+            "updatedAt": "2024-08-10T22:41:18.000Z"
+        }
+    },
+    {
+        "id": 105,
+        "title": "Cooking Oil",
+        "price": 4,
+        "description": "Versatile cooking oil suitable for frying, sautéing, and various culinary applications.",
+        "creationAt": "2024-08-11T08:18:37.000Z",
+        "updatedAt": "2024-08-11T08:18:37.000Z",
+        "category": {
+            "name": "Clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2024-08-10T22:41:18.000Z",
+            "updatedAt": "2024-08-10T22:41:18.000Z"
+        }
+    },
+    {
+        "id": 105,
+        "title": "Cooking Oil",
+        "price": 4,
+        "description": "Versatile cooking oil suitable for frying, sautéing, and various culinary applications.",
+        "creationAt": "2024-08-11T08:18:37.000Z",
+        "updatedAt": "2024-08-11T08:18:37.000Z",
+        "category": {
+            "name": "Clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2024-08-10T22:41:18.000Z",
+            "updatedAt": "2024-08-10T22:41:18.000Z"
+        }
+    }
+]
