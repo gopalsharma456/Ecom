@@ -12,10 +12,10 @@ export default function ProductList(props) {
             return (
               <div key={`${values.title} ${index}`} style={{padding: "5px", textAlign:"center", width:"250px", marginBottom: "5px", border: "1px solid black"}}>
                 <img
-                  src={values.category.image}
+                  src={values.images}
                   className="card-img-top"
                   alt="Product Name"
-                  style={{ width: "5rem" }}
+                  style={{ width: "10rem" }}
                 />
                 <div className="card-body">
                   <h5 className="card-title">{values.title}</h5>

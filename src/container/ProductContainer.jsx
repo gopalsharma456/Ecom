@@ -18,7 +18,7 @@ class ProductContainer extends React.Component {
 
     this.getProducts = this.getProducts.bind(this);
     this.handleAddToCart = this.handleAddToCart.bind(this);
-    this.handleWishList = this.handleWishList.bind(this)
+    this.handleWishList = this.handleWishList.bind(this);
   }
 
   componentDidMount() {
@@ -38,14 +38,36 @@ class ProductContainer extends React.Component {
       });
   }
 
-  handleAddToCart() {
-    
-    this.setState(
+  handleAddToCart(product) {
+    // let cartItem = JSON.parse(localStorage.getItem("cartItems")) || [];
+    // let isProductInCart = cartItem.some((p) => p.id === product.id);
+    // if (!isProductInCart) {
+    //   cartItem.push(product);
+    // }
+
+    // cartItem.itself = cartItem;
+
+    // function replacer(key, value) {
+    //   if (key === "itself") {
+    //     return null;
+    //   }
+
+    //   return value;
+    // }
+
+    // const stringified = JSON.stringify(cartItem, replacer);
+
+    // console.log(stringified);
+    this
+    .setState(
+    // localStorage.setItem('cartItems', JSON.stringify(cartItem))
+
       (prevState) => ({ cartCount: prevState.cartCount + 1 }),
       () => {
         localStorage.setItem("cartCount", this.state.cartCount);
       }
-    );
+    )
+    console.log(this.state.products)
   }
 
   handleWishList(id) {

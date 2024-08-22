@@ -1,11 +1,8 @@
 // import "./App.css";
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Login from "./pages/Login.jsx";
-import Signup from "./pages/Signup.jsx";
-import Product from "./pages/Product.jsx";
-import Cart from "./pages/Cart.jsx";
-import WishList from "./pages/WishList.jsx"
+import Public from "./routes/Public.jsx";
+import Private from "./routes/Private.jsx";
+let isLoggedIn = false
 
 
 // const router = createBrowserRouter([
@@ -44,17 +41,7 @@ import WishList from "./pages/WishList.jsx"
 
 function App() {
   return (
-    <Router>
-      {/* <Product /> */}
-      <Routes>
-        <Route path="/" element={<Product />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/wishlist" element={<WishList />} />
-        <Route path="/signup" element={<Signup />} />
-        <Route path="/login" element={<Login />} />
-        {/* <Route path=""/> */}
-      </Routes>
-    </Router>
+    isLoggedIn ?  <Private /> : <Public />
   );
 }
 
