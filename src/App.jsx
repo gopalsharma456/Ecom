@@ -2,7 +2,7 @@
 import React from "react";
 import Public from "./routes/Public.jsx";
 import Private from "./routes/Private.jsx";
-let isLoggedIn = false
+let isLoggedIn = true
 
 
 // const router = createBrowserRouter([

@@ -1,34 +1,36 @@
 import React, { useState } from "react";
 import Login from "../pages/Login";
 import { Link } from "react-router-dom";
+import { connect } from "react-redux";
+import { bindActionCreators } from "redux";
+
+// import { addToCart } from "../store/actions/cartAction";
 
 function Navbar(props) {
-  const { setCartFromProduct, setWishListFromProduct } = props;
-  const [wishlistItems, setWishlistItems] = useState(0);
-  const [cartItems, setCartItems] = useState(0);
+  // const { setCartFromProduct, setWishListFromProduct } = props;
+  // const [wishlistItems, setWishlistItems] = useState(0);
+  // const [cartItems, setCartItems] = useState(0);
   let user = false;
 
   return (
     <>
       <nav className="navbar">
         <div className="navbar-brand">
-          <Link to="/">MyShop</Link>
+          <Link to="/">Shopeee!</Link>
         </div>
 
         <div className="navbar-links">
           <Link
             to="/wishlist"
             className="navbar-wishlist"
-            onClick={setCartFromProduct}
           >
-            Wishlist ({wishlistItems})
+            Wishlist ({/*wishlistItems*/})
           </Link>
           <Link
             to="/cart"
             className="navbar-cart"
-            onClick={setWishListFromProduct}
           >
-            Cart ({cartItems})
+            Cart ({props.cartCount.length})
           </Link>
           <Link to='/account'>Welcome user</Link>
         </div>
@@ -37,4 +39,19 @@ function Navbar(props) {
   );
 }
 
-export default Navbar;
+// export default Navbar;
+
+const mapStateToProps = (state) => {
+  return {
+    cartCount: state.cartReducer.cart,
+  };
+};
+
+const mapDispatchToProps = (dispatch) => {
+  return bindActionCreators(
+    {},
+    dispatch
+  );
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(Navbar);

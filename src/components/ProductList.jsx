@@ -1,25 +1,28 @@
 import React from "react";
 import data from "./data.json";
+import './ProductList.css'
+import { connect } from "react-redux";
+import { bindActionCreators } from "redux";
+// import addToCart from "../store/actions/cartAction";
 
-export default function ProductList(props) {
+ function ProductList(props) {
   const { products, handleAddToCart, handleWishList } = props;
 
   return (
     <>
       <div className="col-md-4 product-row">
         <div className="card product-card" style={{display: 'flex',flexWrap: "wrap", justifyContent: "space-between"}}>
-          {products.map((values, index) => {
+          {data.map((values, index) => {
             return (
-              <div key={`${values.title} ${index}`} style={{padding: "5px", textAlign:"center", width:"250px", marginBottom: "5px", border: "1px solid black"}}>
+              <div className="card-container" key={`${values.title} ${index}`} style={{padding: "5px", textAlign:"center", width:"250px", marginBottom: "5px", border: "1px solid black"}}>
                 <img
-                  src={values.images}
+                  src={values.category.image || values.images}
                   className="card-img-top"
                   alt="Product Name"
                   style={{ width: "10rem" }}
                 />
-                <div className="card-body">
+                <div className="card-body card-description">
                   <h5 className="card-title">{values.title}</h5>
-                  {/* <p className="card-text">{values.category.name}</p> */}
 
                   <small className="price-tag">{values.price}$</small>
                   <div className="d-flex justify-content-between align-items-center">
@@ -27,13 +30,13 @@ export default function ProductList(props) {
                       <button
                         type="button"
                         className="btn btn-sm btn-outline-secondary"
-                        onClick={handleWishList}
+                        // onClick={handleWishList}
                       >
                         Add to Wishlist
                       </button>
                       <button
                         type="button"
-                        onClick={handleAddToCart}
+                        onClick={() => handleAddToCart(values)}
                         className="btn btn-sm btn-outline-secondary"
                       >
                         Add to Cart
@@ -49,3 +52,22 @@ export default function ProductList(props) {
     </>
   );
 }
+
+const mapStateToProps = (state) => {
+  return {
+    // count: state.counter.count,
+  };
+};
+
+const mapDispatchToProps = (dispatch) =>{
+  return bindActionCreators(
+    {
+      // addToCartAction : addToCart
+    },
+    dispatch
+  )
+}
+
+
+
+export default connect(mapStateToProps ,mapDispatchToProps)(ProductList);
